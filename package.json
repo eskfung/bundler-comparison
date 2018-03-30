@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "bundler-comparison",
+  "description":
+    "A project to demonstrate the differences between Webpack, Rollup, and Parcel",
+  "author": "Eric Fung",
+  "license": "Apache-2.0",
+  "version": "0.0.1-alpha",
+  "devDependencies": {
+    "lerna": "^2.9.0"
+  },
+  "workspaces": ["packages/*"]
+}

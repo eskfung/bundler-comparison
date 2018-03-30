@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "@bundler-comparison/app",
+  "description": "The web app that consumes components from a library",
+  "license": "Apache-2.0",
+  "version": "0.0.1-alpha",
+  "files": [
+    "*"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "@bundler-comparison/components-rollup",
+  "description": "Components, bundled by Rollup",
+  "license": "Apache-2.0",
+  "version": "0.0.1-alpha",
+  "files": [
+    "*"
+  ]
+}

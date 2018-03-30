@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "@bundler-comparison/components-parcel",
+  "description": "Components, bundled by Parcel",
+  "license": "Apache-2.0",
+  "version": "0.0.1-alpha",
+  "files": [
+    "*"
+  ]
+}
