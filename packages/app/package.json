@@ -16,6 +16,7 @@
     "react-dom": "^16.3.0"
   },
   "devDependencies": {
+    "@bundler-comparison/components-webpack": "0.0.1-alpha",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "parcel-bundler": "^1.7.0"
