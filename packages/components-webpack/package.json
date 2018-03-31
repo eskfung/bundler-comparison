@@ -4,6 +4,11 @@
   "description": "Components, bundled by Webpack",
   "license": "Apache-2.0",
   "version": "0.0.1-alpha",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "develop": "webpack --mode development"
+  },
   "devDependencies": {
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
