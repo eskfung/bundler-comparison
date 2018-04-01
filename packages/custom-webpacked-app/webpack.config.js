@@ -1,3 +1,5 @@
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+
 module.exports = {
   // Webpack Defaults:
   //
@@ -17,4 +19,10 @@ module.exports = {
       }
     ]
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: "Custom Webpacked App",
+      template: "src/templates/index.html"
+    })
+  ]
 };
