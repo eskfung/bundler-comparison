@@ -4,10 +4,12 @@
   "description": "The web app that consumes components from a library",
   "license": "Apache-2.0",
   "version": "0.0.1-alpha",
-  "files": ["*"],
+  "files": [
+    "*"
+  ],
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "rimraf dist && parcel build index.html"
   },
   "dependencies": {
     "react": "^16.3.0",
@@ -17,6 +19,7 @@
     "@bundler-comparison/components-babel": "0.0.1-alpha",
     "@bundler-comparison/components-rollup": "0.0.1-alpha",
     "@bundler-comparison/components-webpack": "0.0.1-alpha",
-    "parcel-bundler": "^1.7.0"
+    "parcel-bundler": "^1.7.0",
+    "rimraf": "^2.6.2"
   }
 }
