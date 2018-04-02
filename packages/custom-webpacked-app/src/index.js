@@ -4,4 +4,15 @@ import ReactDOM from "react-dom";
 import { HelloWorld } from "@bundler-comparison/components-rollup";
 // import { HelloWorld } from "@bundler-comparison/components-webpack";
 
-ReactDOM.render(<HelloWorld />, document.getElementById("root"));
+import { randomPlusFive } from "./helpers/randomPlus";
+
+ReactDOM.render(
+  (
+    <div>
+      <HelloWorld />
+      { randomPlusFive() }
+    </div>
+  )
+  ,
+  document.getElementById("root")
+);
